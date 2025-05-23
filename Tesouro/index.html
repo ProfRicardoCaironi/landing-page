@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Caça ao Tesouro - Programação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>🏴‍☠️ Caça ao Tesouro – Missão do Programador</h1>
+
+  <!-- Etapas do jogo -->
+  <div class="desafio" id="etapa1">
+    <strong>Etapa 1:</strong> Declare uma variável <code>chave</code> com o valor <strong>42</strong>.<br>
+    <input type="text" id="entrada1" placeholder="Ex: let chave = 42;">
+    <br>
+    <button onclick="verificarEtapa1()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa2">
+    ✅ Pista 1: A porta da caverna se abriu. Você encontrou um mapa com a palavra <strong>"norte"</strong>.<br><br>
+    <strong>Etapa 2:</strong> Crie a variável <code>direcao</code> com valor <strong>"norte"</strong>.<br>
+    <input type="text" id="entrada2" placeholder='Ex: let direcao = "norte";'>
+    <br>
+    <button onclick="verificarEtapa2()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa3">
+    ✅ Pista 2: Você caminhou na direção certa e encontrou um enigma: <em>5 + x = 12</em><br><br>
+    <strong>Etapa 3:</strong> Crie a variável <code>x</code> com o valor correto.<br>
+    <input type="text" id="entrada3" placeholder="Ex: let x = 7;">
+    <br>
+    <button onclick="verificarEtapa3()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa4">
+    ✅ Pista 3: Um túnel secreto apareceu com um cofre de código.<br><br>
+    <strong>Etapa 4:</strong> Crie a função <code>verificarCodigo</code> que retorna true se o número for <strong>1234</strong>.<br>
+    <textarea id="entrada4" rows="4" placeholder="Ex: function verificarCodigo(codigo) { return codigo === 1234; }"></textarea>
+    <br>
+    <button onclick="verificarEtapa4()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa5">
+    ✅ Pista 4: Um pedestal mágico exige uma conta correta: <code>8 * 2 + 6</code><br><br>
+    <strong>Etapa 5:</strong> Crie a variável <code>resultado</code> com o valor da expressão.<br>
+    <input type="text" id="entrada5" placeholder="Ex: let resultado = 22;">
+    <br>
+    <button onclick="verificarEtapa5()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa6">
+    ✅ Pista 5: Você encontrou um dragão. A resposta correta o acalma!<br><br>
+    <strong>Etapa 6:</strong> Crie uma variável <code>idade</code> e use um <code>if</code> para verificar se a idade é maior ou igual a 18.<br>
+    <textarea id="entrada6" rows="4" placeholder="Ex: let idade = 20; if (idade >= 18) { autorizado = true; } else { autorizado = false; }"></textarea>
+    <br>
+    <button onclick="verificarEtapa6()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa7">
+    ✅ Pista 6: Uma esfinge pergunta: Qual é o tipo de dado de "42"?<br><br>
+    <strong>Etapa 7:</strong> Crie a variável <code>tipo</code> usando <code>typeof 42</code>.<br>
+    <input type="text" id="entrada7" placeholder='Ex: let tipo = typeof 42;'>
+    <br>
+    <button onclick="verificarEtapa7()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="etapa8">
+    ✅ Pista 7: Duas portas aparecem, uma só abre com lógica booleana.<br><br>
+    <strong>Etapa 8:</strong> Crie a variável <code>acesso</code> que seja <code>true</code> se <code>senhaCorreta</code> for true <u>e</u> <code>temChave</code> for true.<br>
+    <textarea id="entrada8" rows="4" placeholder="Ex: let senhaCorreta = true; let temChave = true; let acesso = senhaCorreta && temChave;"></textarea>
+    <br>
+    <button onclick="verificarEtapa8()">Verificar</button>
+  </div>
+
+  <div class="desafio oculto" id="final">
+    🏁 <strong>Você completou todos os desafios!</strong><br>
+    Agora está pronto para aventuras ainda maiores no mundo da programação! 🚀
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
